@@ -1,0 +1,7 @@
+package ro.fasttrackit.homework9.hotelrooms.server.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String s) {
+        super(s);
+    }
+}
